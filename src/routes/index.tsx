@@ -68,7 +68,7 @@ const projects: Project[] = [
   },
   {
     title: "Contextual Query Engine",
-    description: "An advanced Retrieval-Augmented Generation (RAG) pipeline utilizing semantic chunking to enforce zero-hallucination document QA that allows users to upload a PDF file and ask questions about its content. The chatbot responds only from the PDF to ensure accuracy and avoid hallucinations.",
+    description: "A Retrieval-Augmented Generation (RAG) powered chatbot that allows users to upload a PDF file and ask questions about its content. The chatbot responds only from the PDF to ensure accuracy and avoid hallucinations.",
     tags: ["Langchain", "Python", "ChromaDB", "Streamlit", "Gemini API"],
     span: "md",
     github: "https://github.com/shahu285/contextualqengine",

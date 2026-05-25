@@ -49,6 +49,15 @@ type Project = {
 
 const projects: Project[] = [
   {
+    title: "MultiThesis",
+    description:
+      "An AI-powered research tool that deploys multiple specialized agents to search the web, summarize findings, verify facts, and produce structured research reports fully automated in real time.",
+    tags: ["Langgraph","Langchain","Groq API","Tavily API","Streamlit","Python"],
+    span: "lg",
+    github: "https://github.com/shahu285/MultiThesis",
+    live: "https://multi-agent1.streamlit.app/",
+  },
+  {
     title: "Clearance AI",
     description:
       "The application autonomously classifies uploaded files via generative AI to assign dynamic security clearances and enforces zero-trust boundary isolation inside a high-performance vector database.",
@@ -59,7 +68,7 @@ const projects: Project[] = [
   },
   {
     title: "Contextual Query Engine",
-    description: "A Retrieval-Augmented Generation (RAG) powered chatbot that allows users to upload a PDF file and ask questions about its content. The chatbot responds only from the PDF to ensure accuracy and avoid hallucinations.",
+    description: "An advanced Retrieval-Augmented Generation (RAG) pipeline utilizing semantic chunking to enforce zero-hallucination document QA that allows users to upload a PDF file and ask questions about its content. The chatbot responds only from the PDF to ensure accuracy and avoid hallucinations.",
     tags: ["Langchain", "Python", "ChromaDB", "Streamlit", "Gemini API"],
     span: "md",
     github: "https://github.com/shahu285/contextualqengine",

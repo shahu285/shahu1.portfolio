@@ -1,6 +1,3 @@
-<head>
-  <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-</head>
 
 import { createFileRoute } from "@tanstack/react-router";
 import { SiteMeshBackground } from "@/components/SiteMeshBackground";
